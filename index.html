@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts/script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="index.html">Weather App</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Weather App</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a City Name</h3>
+            <input class="city-input" type="text" placeholder="Ex: Bucharest, Madrid, Tokyo">
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+      
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>(2024-06-07)</h2>
+                    <h6>Temperature: 20°C</h6>
+                    <h6>Wind: 5.20 M/S</h6>
+                    <h6>Humidity: 10%</h6>
+                </div>
+                <div class="icon">
+                    <img src="./assets/sun.png" alt="weather-icon">
+                </div>
+            </div>
+
+            <div class="days-forecast">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>(2024-06-08)</h3>
+                        <img src="./assets/cloudy.png" alt="weather-icon"> 
+                        <h6>Temp: 21°C</h6>
+                        <h6>Wind: 14.50 M/S</h6>
+                        <h6>Humidity: 5%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-06-09)</h3>
+                        <img src="./assets/cloudy.png" alt="weather-icon"> 
+                        <h6>Temp: 23°C</h6>
+                        <h6>Wind: 13.23 M/S</h6>
+                        <h6>Humidity: 40%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-06-10)</h3>
+                        <img src="./assets/sun.png" alt="weather-icon"> 
+                        <h6>Temp: 20°C</h6>
+                        <h6>Wind: 6.20 M/S</h6>
+                        <h6>Humidity: 13%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-06-11)</h3>
+                        <img src="./assets/sun.png" alt="weather-icon"> 
+                        <h6>Temp: 19°C</h6>
+                        <h6>Wind: 25 M/S</h6>
+                        <h6>Humidity: 15%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-06-12)</h3>
+                        <img src="./assets/rainy.png" alt="weather-icon"> 
+                        <h6>Temp: 24°C</h6>
+                        <h6>Wind: 4.32 M/S</h6>
+                        <h6>Humidity: 30%</h6>
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Weather App</p>
+    </footer>
+  </body>
+</html>
