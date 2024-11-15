@@ -1,2 +1,2 @@
 # Weather-App
-Weather web application using HTML, CSS, JS
+Weather web application using HTML, CSS, JS.
